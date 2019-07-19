@@ -1,3 +1,8 @@
+def divideAsLongAsPossible2(n, d):
+    while n % d == 0:
+        n //= d
+    return n
+
 def divideAsLongAsPossible(n, d):
     if n % d != 0 :
         return n
